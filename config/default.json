@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://LailaSamir:laila123456789@ismailiacommunity.r0tkl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret":"mysecrettoken"
+}
