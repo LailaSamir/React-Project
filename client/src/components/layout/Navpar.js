@@ -16,7 +16,13 @@ const Navpar = ({ auth: { isAuthenticated, loading }, logout }) => {
         </Link>
       </li>
       <li>
-        <a onClick={logout} href='#!'>
+        <Link to='/posts'>
+          <i className='fas fa-user'></i>
+          <span className='hide-sm'> Posts </span>
+        </Link>
+      </li>
+      <li>
+        <a onClick={logout} href='/login'>
           <i className='fas fa-sign-out-alt'></i>{' '}
           <span className='hide-sm'> Logout</span>
         </a>
@@ -28,9 +34,6 @@ const Navpar = ({ auth: { isAuthenticated, loading }, logout }) => {
     <ul>
       <li>
         <Link to='/profiles'>ITians</Link>
-      </li>
-      <li>
-        <Link to='/posts'>Posts</Link>
       </li>
       <li>
         <Link to='/register'>Register</Link>
